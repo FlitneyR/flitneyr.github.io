@@ -14,12 +14,20 @@ $gray: #666;
 $lightGray: #eee;
 $white: #fff;
 
+// Oranges
+$veryDarkOrange: #250c00;
+$darkerOrange: #3b1300;
+$darkOrange: #501900;
+$orange: #68574f;
+$lightOrange: #a89992;
+$veryLightOrange: #f1efee;
+
 // Semantic Colors
-$backgroundColor: $darkerGray;
-$foregroundColor: $darkGray;
-$titleTextColor: $white;
-$minorTextColor: $lightGray;
-$majorTextColor: $white;
+$backgroundColor: $veryDarkOrange;
+$foregroundColor: $darkerOrange;
+$titleTextColor: $lightOrange;
+$minorTextColor: $orange;
+$majorTextColor: $veryLightOrange;
 
 // Font stacks
 $helvetica: Helvetica, Arial, sans-serif;

@@ -28,6 +28,7 @@ body {
   max-width: 1000px;
   padding: 0 10px;
   width: 100%;
+  padding: 0em 1em;
 }
 
 p, h1, h2, h3, h4, h5, h6 {
@@ -241,13 +242,24 @@ nav {
 // .main
 //
 
-.thumbnail {
-  padding-top: 2em;
-  margin-left: 25px;
-  margin-bottom: 25px;
-  max-width: 45%;
-  min-width: 25%;
-  float: right;
+@media only screen and (max-width: 479px) { // mobile thumbnails
+  .thumbnail {
+    padding-top: 2em;
+    margin-bottom: 25px;
+    width: 100%;
+    float: top;
+  }
+}
+
+@media only screen and (min-width: 479px) { // desktop thumbnails
+  .thumbnail {
+    padding-top: 2em;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    max-width: 45%;
+    min-width: 25%;
+    float: right;
+  }
 }
 
 video {

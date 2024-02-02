@@ -10,7 +10,7 @@ This was my first attempt at creating a Vulkan-based game engine
 
 [Show me the code](https://www.github.com/FlitneyR/my_game_engine)
 
-<video controls=true>
+<video controls=true preload=true>
     <source src="/images/my_game_engine/AsteroidsRecording.mov" type="video/mp4">
     <img src="/images/my_game_engine/AsteroidsRecording.mov" alt="Asteroids Screenshot">
 </video>

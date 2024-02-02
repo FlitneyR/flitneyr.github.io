@@ -1,8 +1,9 @@
 
 .highlight {
-  background-color: #efefef;
+  background-color: $foregroundColor;
   padding: 7px 7px 7px 10px;
   border: 1px solid #ddd;
+  border-radius: 5px;
   -moz-box-shadow: 3px 3px rgba(0,0,0,0.1);
   -webkit-box-shadow: 3px 3px rgba(0,0,0,0.1);
   box-shadow: 3px 3px rgba(0,0,0,0.1);
@@ -10,8 +11,18 @@
   overflow: scroll;
 }
 
+.lineno {
+  color: $minorTextColor;
+  margin-right: 25px;
+  text-align: right;
+}
+
 code {
   font-family:'Bitstream Vera Sans Mono','Courier', monospace;
+}
+
+.language-plaintext {
+  color: $minorTextColor
 }
 
 .highlight .c { color: #586E75 } /* Comment */

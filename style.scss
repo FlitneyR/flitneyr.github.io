@@ -241,27 +241,31 @@ nav {
 // .main
 //
 
-.posts > .post {
-  padding-bottom: 2em;
-  border-bottom: 1px solid $minorTextColor;
-  overflow: hidden;
-}
-
 .thumbnail {
-  margin-left: 5%;
-  max-width: 50%;
+  padding-top: 2em;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  max-width: 45%;
   min-width: 25%;
   float: right;
+}
+
+video {
+  max-width: 100%;
 }
 
 .post {
   overflow: hidden;
 }
 
+.posts > .post {
+  padding-bottom: 2em;
+  border-bottom: 1px solid $minorTextColor;
+}
+
 .posts > .post:last-child {
   padding-bottom: 1em;
   border-bottom: none;
-  overflow: hidden;
 }
 
 .post {

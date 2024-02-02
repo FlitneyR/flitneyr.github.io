@@ -278,6 +278,10 @@ video {
     font-style: italic;
   }
 
+  .entry {
+    -webkit-text-size-adjust: none;
+  }
+
   .comments {
     margin-top: 10px;
   }

@@ -4,7 +4,7 @@ layout: default
 
 <div class="posts">
   {% assign projects = site.projects | sort: "priority" %}
-  {% for post in site.projects %}
+  {% for post in projects %}
     <article class="post">
       {% if post.thumbnail %}
         <img class="thumbnail" src="{{ site.baseurl }}{{ post.thumbnail }}" />

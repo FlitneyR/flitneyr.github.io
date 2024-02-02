@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Chronology: a timetravel puzzle game"
+date: 2023-05-01
+thumbnail: /images/Chronology/thumbnail.png
+priority: 1
+---
+
+This is a game I made as university Coursework. It's inspired by Portal, but with time travel instead of Portals.
+
+[Watch the trailer](https://youtu.be/HFWyO68Jp7A)
+
+[Play the game](https://robertflitney.itch.io/chronology)
+
+_I have since realised that this idea is not novel and that I had seen it [somewhere else](https://store.steampowered.com/app/1730590/The_Entropy_Centre/)._

@@ -8,8 +8,13 @@ priority: 1
 
 This is a game I made as university Coursework. It's inspired by Portal, but with time travel instead of Portals.
 
-[Watch the trailer](https://youtu.be/HFWyO68Jp7A)
-
 [Play the game](https://robertflitney.itch.io/chronology)
+
+<iframe class="youtube-embed"
+        src="https://www.youtube.com/embed/HFWyO68Jp7A"
+        title="Chronology Trailer"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
 
 _I have since realised that this idea is not novel and that I had seen it [somewhere else](https://store.steampowered.com/app/1730590/The_Entropy_Centre/)._

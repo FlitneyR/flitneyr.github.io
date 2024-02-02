@@ -16,6 +16,7 @@ collections:
     output: true
   projects:
     output: true
+    sort_by: priority
 
 #
 # Flags below are optional
@@ -23,13 +24,14 @@ collections:
 
 # Includes an icon in the footer for each username you enter
 footer-links:
+  itchio: robertflitney
   dribbble:
   email: robert.ogflitney@gmail.com
   facebook:
   flickr:
   github: FlitneyR
   instagram:
-  linkedin:
+  linkedin: https://www.linkedin.com/in/robert-flitney-380240235/
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter:

@@ -241,29 +241,6 @@ nav {
 // .main
 //
 
-@media only screen and (max-width: 479px) { // mobile thumbnails
-  .thumbnail {
-    padding-top: 1em;
-    padding-bottom: 1em;
-    width: 100%;
-    float: top;
-  }
-}
-
-@media only screen and (min-width: 479px) { // desktop thumbnails
-  .thumbnail {
-    padding-top: 1.5em;
-    margin-left: 25px;
-    max-width: 45%;
-    min-width: 25%;
-    float: right;
-  }
-
-  #main {
-    padding: 0 2em;
-  }
-}
-
 video {
   max-width: 100%;
 }
@@ -302,11 +279,40 @@ video {
   .read-more {
     text-transform: uppercase;
     font-size: 15px;
+  }
+}
+
+@media (max-width: 479px) { // mobile thumbnails
+  .thumbnail {
+    margin-bottom: 1em;
+    width: 100%;
+    float: top;
+  }
+
+  .post > h1 {
+    margin: 0;
+  }
+}
+
+@media (min-width: 479px) { // desktop thumbnails
+  .thumbnail {
+    padding-top: 1em;
+    margin-left: 1em;
+    max-width: 45%;
+    min-width: 25%;
+    float: right;
+  }
+
+  #main > .post > .thumbnail {
     margin-bottom: 1em;
   }
 
-  h1 {
+  .post > h1 {
     margin: 0.5em 0;
+  }
+
+  #main {
+    padding: 0 2em;
   }
 }
 

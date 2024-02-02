@@ -10,7 +10,7 @@ This is a game I made as university Coursework. It's inspired by Portal, but wit
 
 [Play the game](https://robertflitney.itch.io/chronology)
 
-<iframe class="youtube-embed"
+<iframe style="min-width: 100%; aspect-ratio:16/9;"
         src="https://www.youtube.com/embed/HFWyO68Jp7A"
         title="Chronology Trailer"
         frameborder="0"

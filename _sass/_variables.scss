@@ -44,3 +44,10 @@ $georgia: Georgia, serif;
     @content;
   }
 }
+
+// desktop breakpoints
+@mixin desktop {
+  @media screen and (min-width: 640px) {
+    @content;
+  }
+}

@@ -282,22 +282,13 @@ video {
   }
 }
 
-@media (max-width: 479px) { // mobile
-  .thumbnail {
-    padding-top: 0.5em;
-    margin-bottom: 0.5em;
-    width: 100%;
-    float: top;
-  }
-
-  .post > h1 {
-    margin: 0;
-  }
+.thumbnail {
+  border-radius: 0.5em;
 }
 
-@media (min-width: 479px) { // desktop
+@include desktop {
   .thumbnail {
-    padding-top: 1em;
+    margin-top: 1em;
     margin-left: 1em;
     max-width: 45%;
     min-width: 25%;
@@ -314,6 +305,19 @@ video {
 
   #main {
     padding: 0 2em;
+  }
+}
+
+@include mobile {
+  .thumbnail {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    width: 100%;
+    float: top;
+  }
+
+  .post > h1 {
+    margin: 0;
   }
 }
 

@@ -3,6 +3,7 @@ layout: default
 ---
 
 <div class="posts">
+  {% assign projects = site.projects | sort: "priority" %}
   {% for post in site.projects %}
     <article class="post">
       {% if post.thumbnail %}

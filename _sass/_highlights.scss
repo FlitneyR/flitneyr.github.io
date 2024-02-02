@@ -6,6 +6,7 @@
   border-radius: 5px;
   -moz-box-shadow: 3px 3px rgba(0,0,0,0.1);
   -webkit-box-shadow: 3px 3px rgba(0,0,0,0.1);
+  -webkit-text-size-adjust: none;
   box-shadow: 3px 3px rgba(0,0,0,0.1);
   margin: 20px 0 20px 0;
   overflow: scroll;
@@ -19,18 +20,11 @@
 
 code {
   font-family:'Bitstream Vera Sans Mono','Courier', monospace;
-  font-size: 1rem;
+  -webkit-text-size-adjust: none;
 }
 
-/* Fixes iOS font sizing anomaly
- * thanks https://github.com/bglw
- * https://github.com/adityatelange/hugo-PaperMod/issues/828#issuecomment-1171994855
- */
-code {
-  text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
+code > span {
+  -webkit-text-size-adjust: none;
 }
 
 .language-plaintext {

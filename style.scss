@@ -282,9 +282,9 @@ video {
   }
 }
 
-@media (max-width: 479px) { // mobile thumbnails
+@media (max-width: 479px) { // mobile
   .thumbnail {
-    margin-top: 0.5em;
+    padding-top: 0.5em;
     margin-bottom: 0.5em;
     width: 100%;
     float: top;
@@ -295,7 +295,7 @@ video {
   }
 }
 
-@media (min-width: 479px) { // desktop thumbnails
+@media (min-width: 479px) { // desktop
   .thumbnail {
     padding-top: 1em;
     margin-left: 1em;

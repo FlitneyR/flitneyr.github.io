@@ -69,11 +69,11 @@ p {
 }
 
 a {
-  color: $blue;
+  color: $accentColor;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: $accentColor;
   }
 }
 
@@ -156,7 +156,7 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $minorTextColor;
+  border-bottom: 1px solid $detailColor;
 
   @include mobile {
     text-align: center;
@@ -232,7 +232,7 @@ nav {
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+      color: $accentColor;
     }
   }
 }
@@ -260,7 +260,7 @@ video {
 
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 1px solid $minorTextColor;
+  border-bottom: 1px solid $detailColor;
 }
 
 .posts > .post:last-child {
@@ -290,8 +290,8 @@ video {
 
 .wrapper-footer {
   margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
+  border-top: 1px solid $detailColor;
+  border-bottom: 1px solid $detailColor;
   background-color: $foregroundColor;
 }
 

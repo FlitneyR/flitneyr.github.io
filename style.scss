@@ -284,7 +284,8 @@ video {
 
 @media (max-width: 479px) { // mobile thumbnails
   .thumbnail {
-    margin-bottom: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
     width: 100%;
     float: top;
   }

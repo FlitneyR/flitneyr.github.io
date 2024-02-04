@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Chronology: a timetravel puzzle game"
+title: "Chronology: a time travel puzzle game"
 date: 2023-05-01
 thumbnail: /images/Chronology/thumbnail.png
 priority: 1

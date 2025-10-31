@@ -3,9 +3,6 @@
 // VARIABLES
 //
 
-// Colors
-$blue: #4183C4;
-
 // Grays
 $black: #000;
 $darkerGray: #222;
@@ -22,16 +19,23 @@ $orange: #8f7a70;
 $lightOrange: #c1b4ae;
 $veryLightOrange: #f1efee;
 
+// Blues
+$veryDarkBlue: #011E25;
+$darkBlue: #0E3C47;
+$blue: #255c69;
+$lightBlue: #487e8b;
+$veryLightBlue: 7EAFBA;
+
 // Semantic Colors
-$backgroundColor: $veryDarkOrange;
-$foregroundColor: $darkerOrange;
-$detailColor: $orange;
+$backgroundColor: $veryDarkBlue;
+$foregroundColor: $darkBlue;
+$detailColor: $blue;
 
-$titleTextColor: $lightOrange;
-$minorTextColor: $orange;
-$majorTextColor: $veryLightOrange;
+$titleTextColor: $lightBlue;
+$minorTextColor: $blue;
+$majorTextColor: $veryLightBlue;
 
-$accentColor: $blue;
+$accentColor: $orange;
 
 // Font stacks
 $helvetica: Helvetica, Arial, sans-serif;

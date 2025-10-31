@@ -12,12 +12,11 @@ $lightGray: #eee;
 $white: #fff;
 
 // Oranges
-$veryDarkOrange: #252221;
-$darkerOrange: #38302d;
-$darkOrange: #826253;
-$orange: #8f7a70;
-$lightOrange: #c1b4ae;
-$veryLightOrange: #f1efee;
+$veryDarkOrange: #3C1B00;
+$darkOrange: #AF5207;
+$orange: #F28935;
+$lightOrange: #FFB479;
+$veryLightOrange: #FFEDDF;
 
 // Blues
 $veryDarkBlue: #002323;
@@ -27,15 +26,15 @@ $lightBlue: #5CB8B8;
 $veryLightBlue: #DAF6F6;
 
 // Semantic Colors
-$backgroundColor: $darkBlue;
-$foregroundColor: $blue;
+$backgroundColor: $veryDarkBlue;
+$foregroundColor: $darkBlue;
 $detailColor: $lightBlue;
 
-$titleTextColor: $orange;
+$titleTextColor: $veryDarkOrange;
 $minorTextColor: $lightOrange;
-$majorTextColor: $veryLightOrange;
+$majorTextColor: $darkOrange;
 
-$accentColor: $veryLightOrange;
+$accentColor: $orange;
 
 // Font stacks
 $helvetica: Helvetica, Arial, sans-serif;

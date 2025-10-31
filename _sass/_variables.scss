@@ -20,22 +20,22 @@ $lightOrange: #c1b4ae;
 $veryLightOrange: #f1efee;
 
 // Blues
-$veryDarkBlue: #011E25;
-$darkBlue: #0E3C47;
-$blue: #255c69;
-$lightBlue: #487e8b;
-$veryLightBlue: 7EAFBA;
+$veryDarkBlue: #002323;
+$darkBlue: #076767;
+$blue: #248E8E;
+$lightBlue: #5CB8B8;
+$veryLightBlue: #DAF6F6;
 
 // Semantic Colors
 $backgroundColor: $veryDarkBlue;
 $foregroundColor: $darkBlue;
 $detailColor: $blue;
 
-$titleTextColor: $lightBlue;
-$minorTextColor: $blue;
-$majorTextColor: $veryLightBlue;
+$titleTextColor: $orange;
+$minorTextColor: $lightOrange;
+$majorTextColor: $veryLightOrange;
 
-$accentColor: $orange;
+$accentColor: $veryLightBlue;
 
 // Font stacks
 $helvetica: Helvetica, Arial, sans-serif;

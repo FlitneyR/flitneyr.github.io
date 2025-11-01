@@ -3,7 +3,7 @@ layout: post
 title: "Chronology: a time travel puzzle game"
 date: 2023-05-01
 thumbnail: /images/Chronology/thumbnail.png
-priority: 1
+priority: 2
 ---
 
 This is a game I made as university Coursework. It's inspired by Portal, but with time travel instead of Portals.

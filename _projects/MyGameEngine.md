@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "My Game Engine: a Vulkan-based game engine"
+title: "Vulkan-based game engine"
 date: 2023-11-13
 thumbnail: /images/my_game_engine/Asteroids.png
-priority: 0
+priority: 1
 ---
 
 This was my first attempt at creating a Vulkan-based game engine

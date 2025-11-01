@@ -1,6 +1,10 @@
 
+.MathJax .mi, .MathJax .mo {
+  color: $majorTextColor;
+}
+
 .highlight {
-  background-color: $foregroundColor;
+  background-color: $darkerGray;
   padding: 7px 7px 7px 10px;
   border: 1px solid #ddd;
   border-radius: 5px;
@@ -13,7 +17,7 @@
 }
 
 .lineno {
-  color: $minorTextColor;
+  color: $lightGray;
   margin-right: 25px;
   text-align: right;
 }
@@ -28,7 +32,7 @@ code > span {
 }
 
 .language-plaintext {
-  color: $minorTextColor
+  color: $lightGray
 }
 
 .highlight .c { color: #586E75 } /* Comment */

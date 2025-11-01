@@ -18,4 +18,4 @@ Ask me about:
 ### Contact me
 
 - [robert.ogflitney@gmail.com](mailto:robert.ogflitney@gmail.com)
-- [LinkedIn](www.linkedin.com/in/robert-flitney-380240235)
+- [LinkedIn](https://www.linkedin.com/in/robert-flitney-380240235)

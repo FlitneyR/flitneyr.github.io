@@ -22,6 +22,9 @@ context data to be sent to various update stages, rather than that type of data 
 I made more use of runtime checks for things like hashes of type names, rather than the excessive templating that was present
 in some of my previous ECS engines.
 
+I have also written up the following articles outlining some of Onyx's features:
+- [Onyx's ECS. From the top down, and the bottom up]({% post_url 2025-11-01-OnyxECS %})
+
 Below is a quick demo, poking around the editor, then showing a simple game running.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eptxYNMaZvs?si=OekyU9MLDDMdmwKU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

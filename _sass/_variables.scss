@@ -23,7 +23,7 @@ $veryDarkBlue: #000606;
 $darkBlue: #004240;
 $blue: #016B67;
 $lightBlue: #208F8B;
-$veryLightBlue: #7BC6C3;
+$veryLightBlue: #dffffe;
 
 // Semantic Colors
 $backgroundColor: $veryLightOrange;
@@ -34,7 +34,10 @@ $titleTextColor: $darkGray;
 $minorTextColor: $black;
 $majorTextColor: $darkerGray;
 
-$accentColor: $veryLightBlue;
+$accentColor: $blue;
+
+$tableBackgroundColor: $veryLightBlue;
+$tableSeparatorColor: $lightBlue;
 
 // Font stacks
 $helvetica: Helvetica, Arial, sans-serif;

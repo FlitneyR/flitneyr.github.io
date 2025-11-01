@@ -12,8 +12,16 @@
   -webkit-box-shadow: 3px 3px rgba(0,0,0,0.1);
   -webkit-text-size-adjust: none;
   box-shadow: 3px 3px rgba(0,0,0,0.1);
-  margin: 20px 0 20px 0;
+  margin: 20px 3px 20px 0px;
   overflow: scroll;
+}
+
+.highlighter-rouge {
+  background-color: $gray;
+  padding: 2px 5px;
+  border-radius: 3px;
+  -webkit-text-size-adjust: none;
+  // margin: 20px 0 20px 0;
 }
 
 .lineno {

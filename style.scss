@@ -110,6 +110,16 @@ img {
   max-width: 100%;
 }
 
+table:not( .rouge-table ) {
+  background-color: $tableBackgroundColor;
+  margin: 10px;
+
+  td, th {
+    padding: 5px 10px;
+    border: 2px solid $tableSeparatorColor;
+  }
+}
+
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;

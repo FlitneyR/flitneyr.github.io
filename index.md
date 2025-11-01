@@ -6,7 +6,7 @@ permalink: /
 
 I'm currently an Associate Programmer at [Coconut Lizard](https://www.coconutlizard.co.uk/) / [D3T](https://d3tltd.com/) (same company, two different studios).
 
-I have a first class degree in Computer Science from the University of Nottingham.
+I have a First Class Hons BSc in Computer Science from the University of Nottingham.
 
 I have credits on the following games:
 - King of Meat - Associate Programmer

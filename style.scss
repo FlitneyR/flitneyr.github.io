@@ -44,6 +44,10 @@ p, h1, h2, h3, h4, h5, h6 {
   }
 }
 
+p {
+  font-weight: 400;
+}
+
 h1 {
   font-size: 30px;
   a {
@@ -118,6 +122,22 @@ table:not( .rouge-table ) {
     padding: 5px 10px;
     border: 2px solid $tableSeparatorColor;
   }
+}
+
+.note {
+  background-color: $tableBackgroundColor;
+  border-radius: 5px;
+  padding: 5px 12px;
+  margin: 5px 0px;
+
+  p {
+    margin: 0px;
+    font-weight: 500;
+  }
+}
+
+.posts > .post > h1 {
+  margin-bottom: 0px;
 }
 
 // Fixes images in popup boxes from Google Translate

@@ -1,9 +1,10 @@
 ---
 title: Topological Sort - Picking graphs apart
 layout: post
+excerpt: In learning about game engines and renderers, I've come across a handful of instances ( ECS, Render Graphs ) where we can express dependencies between stages as a directed graph. This article explores some ways we can flatten these graphs into more useful information - e.g. the order we should do these stages, and whether they can be done in parallel.
 ---
 
-In my attempts to make understand game engines, and how they render complex scenes, I've come across the idea of Render Graphs.
+In my attempts to understand game engines, and how they render complex scenes, I've come across the idea of Render Graphs.
 
 Render graphs are a type of dependency graph: an acyclic, directed graph which expresses dependencies between nodes.
 

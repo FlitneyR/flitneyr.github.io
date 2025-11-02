@@ -1,11 +1,9 @@
 ---
 layout: post
-title: "Onyx"
+title: "Onyx - a 2D Vulkan + ECS engine with an editor"
 date: 2025-11-01
 priority: 0
 ---
-
-Another Vulkan/ECS game engine - this time with an editor
 
 In this project, I tried to apply what I've learnt in the past year to make better decisions at every turn.
 I focused, early on, on laying out a plan for the overall project structure.

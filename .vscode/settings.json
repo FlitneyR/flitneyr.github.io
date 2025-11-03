@@ -1,9 +1,13 @@
 {
     "cSpell.words": [
+        "constexpr",
+        "deserialised",
         "ENDFOREACH",
         "ENDFUNCTION",
         "Ignis",
+        "linenos",
         "mathbb",
+        "nullptr",
         "Sponza"
     ]
 }

@@ -152,12 +152,12 @@ table:not( .rouge-table ) {
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: $black;
-  background: $minorTextColor;
+  color: $textHighlightColor;
+  background: $textHighlightBackground;
 }
 ::selection {
-  color: $black;
-  background: $minorTextColor;
+  color: $textHighlightColor;
+  background: $textHighlightBackground;
 }
 
 // Nicolas Gallagher's micro clearfix hack

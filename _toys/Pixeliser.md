@@ -40,7 +40,7 @@ title: Pixeliser
     var output = document.getElementById("output");
 
     const copy_to_clipboard = function() {
-        navigator.clipboard.writeText(output.innerHTML);
+        navigator.clipboard.writeText(output.innerText);
     }
 
     const update_output = function () {
@@ -303,6 +303,13 @@ title: Pixeliser
         " ": [
             [ 0 ],
             [ 0 ],
+            [ 0 ],
+            [ 0 ],
+            [ 0 ],
+        ],
+        "'": [
+            [ 1 ],
+            [ 1 ],
             [ 0 ],
             [ 0 ],
             [ 0 ],

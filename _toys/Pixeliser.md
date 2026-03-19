@@ -64,17 +64,17 @@ title: Pixeliser
         text = text.toUpperCase();
 
         for (let idx = 0; idx < text.length; ++idx) {
+            pattern = keymap[text.charAt(idx)];
+
+            if (!pattern) {
+                continue;
+            }
+                
             if (idx == 0) {
                 for (let row = 0; row < result.length; ++row)
                 {
                     result[row].push(0);
                 }
-            }
-
-            pattern = keymap[text.charAt(idx)];
-
-            if (!pattern) {
-                continue;
             }
 
             result[0].push(...Array(pattern[0].length).fill(0));
@@ -161,11 +161,11 @@ title: Pixeliser
             [ 1, 0, 0 ],
         ],
         "G": [
-            [ 0, 1, 1 ],
-            [ 1, 0, 0 ],
-            [ 1, 0, 1 ],
-            [ 1, 0, 1 ],
-            [ 0, 1, 1 ],
+            [ 0, 1, 1, 0 ],
+            [ 1, 0, 0, 0 ],
+            [ 1, 0, 1, 1 ],
+            [ 1, 0, 0, 1 ],
+            [ 0, 1, 1, 0 ],
         ],
         "H": [
             [ 1, 0, 0, 1 ],
@@ -383,6 +383,20 @@ title: Pixeliser
             [ 0 ],
             [ 0 ],
             [ 0 ],
+        ],
+        "!": [
+            [ 1 ],
+            [ 1 ],
+            [ 1 ],
+            [ 0 ],
+            [ 1 ],
+        ],
+        "?": [
+            [ 1, 1, 0 ],
+            [ 0, 0, 1 ],
+            [ 0, 1, 0 ],
+            [ 0, 0, 0 ],
+            [ 0, 1, 0 ],
         ]
     };
 </script>

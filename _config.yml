@@ -17,6 +17,8 @@ collections:
   projects:
     output: true
     sort_by: priority
+  toys:
+    output: true
 
 #
 # Flags below are optional

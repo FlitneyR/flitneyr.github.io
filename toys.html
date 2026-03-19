@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div class="toys">
+    {% assign toys = site.toys %}
+    {% for toy in toys %}
+    <article class="toy">
+        <h1><a href="{{ site.baseurl }}{{ toy.url }}">{{ toy.title }}</a></h1>
+
+        <div class="description" >
+            {{ toy.description }}
+        </div>
+    </article>
+    {% endfor %}
+</div>
